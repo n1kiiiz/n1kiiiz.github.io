@@ -1,0 +1,21 @@
+---
+title: "About"
+about: 
+  template: jolla
+  image: IU.jpeg
+  image-width: 5cm
+  image-shape: round
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/n1kiiiz
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/yuxing-zhou-193002266
+---
+
+I am Yuxing Zhou
+
+## Education
+
+UCL

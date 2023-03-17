@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+
+execute: 
+  freeze: true
+
+website:
+  title: "Yuxing Zhou"
+  
+  #how to arrange in navbar
+  navbar:
+  #add search icon
+    search: true
+  #left hand side of navbar
+    left:
+    #- to indicate different pages
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - file: "achievements.qmd"
+        text: Achievements
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/yuxing-zhou-193002266
+      - icon: twitter
+        href: https://www.twitter.com
+
+format:
+  html:
+    theme: 
+      light: Minty
+      dark: darkly
+    css: styles.css
+    toc: true
+
+editor: visual
+
